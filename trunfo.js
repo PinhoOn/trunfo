@@ -61,16 +61,16 @@ function randomCard(){
   var numberCardPinho = parseInt(Math.random() * 7)
   cardPinho = cards[numberCardPinho]
   console.log(cardPinho)
+  
   var numberCardPlayer = parseInt(Math.random() * 7)
   while (numberCardPlayer == numberCardPinho){
-  numberCardPlayer = parseInt(Math.random() * 7)
-}
-cardPlayer = cards[numberCardPlayer]
+  numberCardPlayer = parseInt(Math.random() * 7)}
+
+  cardPlayer = cards[numberCardPlayer]
 
 var imageCardPlayer
 
 function imageCardPlayer(){
-  var divMyCard = document.getElementById("my__card")
-  divMyCard.style.backgroundImage`url(${cardPinho.image})`
+  document.getElementById("my__card").style.backgroundImage = `url(${cardPinho.image})`
 }
 }
