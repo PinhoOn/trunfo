@@ -1,0 +1,103 @@
+.body__specf{
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Milonga', cursive;
+}
+.header__infos{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  width: 100%;
+  height: 200px;
+  background-image:url(image/background.jpg);
+  background-size: 300px;
+  opacity: 85%;
+}
+.header__title{
+  color:red;
+  font-size: 60px;
+  text-shadow: 3px 4px black;
+  margin-bottom: 0;
+}
+.header__subtitle{
+  font-size: 40px;
+  color: red;
+  text-shadow: 3px 4px black;
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.container{
+  display: flex;
+  align-content: space-between;
+  width: 100%;
+  height: 670px;
+  background-color: black;
+
+}
+.cards__text{
+  display: flex;
+  justify-content: space-between;
+}
+
+.your--card--text{
+  text-align: left;
+  background-color: green;
+  font-size: 30px;
+  margin: 0;
+  border: 0;
+  padding-left: 200px;
+  padding-right: 32%;
+
+}
+
+.my--card--text{
+  text-align: right;
+  background-color: red;
+  font-size: 30px;
+  margin: 0;
+  padding-right: 200px;
+  padding-left: 32%;
+}
+#your__card{
+  display: flex;
+  justify-content: left;
+  background:no-repeat;
+  width: 33%;
+  height: 600px;
+  padding-left: 10px;
+  border: solid;
+  border-color: green;
+  border-radius: 20px;
+}
+#btnCard{
+  border-radius: 30px;
+  width:33%;
+  height: 200px;
+  font-size: 20px;
+}
+#my__card{
+  display: flex;
+  justify-content: left;
+  width: 33%;
+  height: 600px;
+  padding-right: 10px;
+  border: solid;
+  border-color: red;
+  border-radius: 20px;
+}
+
+p {
+  color: white;
+  margin-left: 10px;
+  font-size: 20px;
+  max-width: 30px;
+}
+
