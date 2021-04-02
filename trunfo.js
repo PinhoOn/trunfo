@@ -1,19 +1,19 @@
 var cardMathDef = {
-  image: "https://i.imgur.com/dLqM8zB.png",
+  image: "image/mathdef.png",
   name: " Matheus Observador",
   attack: "0, pois ele observa",
   defense: "90, pois ele tudo vê",
   magic: "0, apenas um observador"
   }
-var cardMathAtack = {
-  image:"https://i.imgur.com/A8sMNLB.png",
+var cardMathAttack = {
+  image:"image/mathattack.png",
   name:"Matheus Putaço",
   attack:"90, pois ele ta puto carai",
   defense:"0, ele só quer bater em geral",
   magic:"50, o negocio é socão"
   }
 var cardGabriel = {
-  image: "https://i.imgur.com/jYSdOCt.png",
+  image: "image/gabriel.jpg",
   name: "Gabriel Pinho",
   attack:"100000, Gabriel Pinho é implacavel",
   defense:"100000, Achas que pode me ferir?",
@@ -21,15 +21,15 @@ var cardGabriel = {
 } 
 
 var cardPinhoGent = {
-  image: "https://i.imgur.com/YhWC8px.png",
+  image: "image/pinhogentle.png",
   name:"Pinho Gentleman",
   attack:"0, Concede a vitoria ao oponente",
   defense:"0, Deixa o oponente ganhar",
   magic:"0, Cordialmente oferece a vitoria"
 }
 
-var cardPinhoAtack = {
-  image: "https://i.imgur.com/GXX4hZk.png",
+var cardPinhoAttack = {
+  image: "image/pinhoattack.png",
   name: "Pinho SaiaJeans",
   attack:"50, um iniciante na arte do duelo",
   defense:"20, mó magrelo",
@@ -37,14 +37,14 @@ var cardPinhoAtack = {
 }
 
 var cardGuizoPokas = {
-  image: "https://i.imgur.com/aVRxxRY.png",
+  image: "image/guizopokas.png",
   name: "Guizo Pokas Ideia",
   attack:"0, ele fica imovel",
   defense:"0, menino fragil",
   magic:"100, te mata com o olhar"
 }
 var cardGuizoReza = {
-  image: "https://i.imgur.com/66qIh7C.png",
+  image: "image/guizoreza.png",
   name: "Avemaria cheia de Guizo",
   attack:"0, pois ele pede para ganhar",
   defense:"0, ele só quer ganhar",
@@ -52,7 +52,7 @@ var cardGuizoReza = {
 }
 var cardPinho
 var numberCardPlayer
-var cards = [cardMathDef, cardMathAtack, cardGabriel, cardPinhoGent, cardPinhoAtack, cardGuizoPokas, cardGuizoReza]
+var cards = [cardMathDef, cardMathAttack, cardGabriel, cardPinhoGent, cardPinhoAttack, cardGuizoPokas, cardGuizoReza]
 
 function randomCard(){
   var numberCardPinho = parseInt(Math.random() * 7)
