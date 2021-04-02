@@ -66,7 +66,7 @@ function randomCard(){
   cardPlayer = cards[numberCardPlayer]
 
 function imageCards(){
-  document.getElementById("my__card").style.backgroundImage = `url(${cardPinho.image})`
+  document.getElementById("my__card").style.backgroundImage = `url(cardPinho.image)`
   document.getElementById("your__card").style.backgroundImage = `url(${cardPlayer.image})`
 }
 imageCards()
