@@ -1,5 +1,7 @@
 .body__specf{
+  position: relative;
   display: flex;
+  direction: ltr;
   flex-direction: column;
   max-width: 100%;
   margin: 0;
@@ -36,6 +38,7 @@
 
 .container{
   display: flex;
+  background-repeat: no-repeat;
   align-content: space-between;
   width: 100%;
   height: 670px;
@@ -50,7 +53,7 @@
 
 .your--text{
   text-align: left;
-  background-color: rgb(0, 255, 0);
+  background-color: #3fc380;
   font-size: 30px;
   margin: 0;
   border: 0;
@@ -68,7 +71,7 @@
 
 .my--text{
   text-align: right;
-  background-color: red;
+  background-color: #e26a6a;
   font-size: 30px;
   margin: 0;
   padding-right: 260px;
@@ -83,7 +86,7 @@
   margin-left: 150px;
   margin-right: 150px;
   border: solid;
-  border-color: rgb(0, 255, 0);
+  border-color: #3fc380;
   border-radius: 20px;
 }
 #btnCard{
@@ -106,7 +109,7 @@
   margin-left: 150px;
   margin-right: 150px;
   border: solid;
-  border-color: red;
+  border-color: #e26a6a;
   border-radius: 20px;
 }
 
@@ -115,9 +118,9 @@
   transform: translateY(350px);
   font-size: 25px;
   margin-left: 130px;
-  background-color:rgb(0, 255, 0) ;
+  background-color:#3fc380 ;
   border: 3px solid black;
-  color:red;
+  color:black;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -127,9 +130,9 @@
   right: 0;
   font-size: 25px;
   margin-right: 150px;
-  background-color:red ;
+  background-color: #e26a6a;
   border: 3px solid black;
-  color:rgb(0, 255, 0);
+  color:black;
   padding-left: 10px;
   padding-right: 10px;
 }

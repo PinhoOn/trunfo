@@ -95,5 +95,3 @@ function statsCardPinho(){
 
 statsCardPinho()
 }
-
-randomCard()
